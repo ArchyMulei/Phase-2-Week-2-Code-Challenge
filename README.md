@@ -39,7 +39,7 @@ Follow these steps to set up the project on your local machine:
 Created by Archibald Mulei
 
 ## Contact
-Feel free to contact me at kelvinmue@gmail.com for any questions or inquiries. Contributions are welcome! Visit the [GitHub repository](https://github.com/ArchyMulei/Phase-2-Week-2-Code-Challenge) to contribute.
+Feel free to contact me at archimulei023@gmail.com for any questions or inquiries. Contributions are welcome! Visit the [GitHub repository](https://github.com/ArchyMulei/Phase-2-Week-2-Code-Challenge) to contribute.
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
