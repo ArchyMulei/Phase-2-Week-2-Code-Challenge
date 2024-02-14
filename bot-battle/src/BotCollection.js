@@ -9,7 +9,7 @@ function BotCollection({ addToArmy }) {
 
   // Fetch bots from the server when the component mounts
   useEffect(() => {
-    fetch('http://localhost:3000/bots')
+    fetch('http://localhost:4000/bots')
       .then(response => response.json())
       .then(data => setBots(data)) // Set the fetched bot data to the state
       .catch(error => console.error('Error fetching bots:', error))
@@ -24,7 +24,7 @@ function BotCollection({ addToArmy }) {
   // Handle releasing a bot from the collection
   const handleReleaseBot = async (bot) => {
     try {
-      await fetch(`http://localhost:3000/bots/${bot.id}`, {
+      await fetch(`http://localhost:4000/bots/${bot.id}`, {
         method: 'DELETE', // Send a DELETE request to the server to release the bot
       });
       setBots(bots.filter(item => item.id !== bot.id)); // Remove the bot from the local bots state

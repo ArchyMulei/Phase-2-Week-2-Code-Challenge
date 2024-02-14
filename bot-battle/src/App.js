@@ -26,7 +26,7 @@ function App() {
   // Function to discharge a bot from the server
   const dischargeBot = async (bot) => {
     try {
-      await fetch(`http://localhost:3000/bots/${bot.id}`, {
+      await fetch(`http://localhost:4000/bots/${bot.id}`, {
         method: 'DELETE', // Send a DELETE request to the server to discharge the bot
       });
     } catch (error) {
